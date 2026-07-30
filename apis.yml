@@ -1,20 +1,44 @@
 aid: metastable-capital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metastable-capital.png
 name: MetaStable Capital
-description: MetaStable Capital is a company surfaced as a portfolio company of union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: MetaStable Capital is one of the oldest cryptocurrency hedge funds, co-founded
+  in 2014 by Naval Ravikant and among the longest-running funds in crypto history, with
+  early investments in major networks and protocols including Ethereum, Avalanche, Cosmos,
+  and Starkware. The firm was acquired by crypto investment fund Dragonfly and now operates
+  as a Dragonfly entity alongside Dragonfly Ventures and Dragonfly Liquid; its former domain
+  metastablecapital.com redirects to dragonfly.xyz. As an investment/fund manager it exposes
+  no public developer or API surface, so this API Evangelist profile carries identity and
+  network metadata rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/metastable-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - union-square-ventures
+x-acquired-by: dragonfly
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cryptocurrency
+- Crypto Hedge Fund
+- Venture Capital
+- Investment
+- Blockchain
+- Digital Assets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,10 @@ maintainers:
 common:
 - type: Website
   url: https://metastablecapital.com
+- type: Blog
+  url: https://writing.dragonfly.xyz/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
